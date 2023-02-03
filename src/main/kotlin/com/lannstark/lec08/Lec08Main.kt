@@ -17,6 +17,7 @@ package com.lannstark.lec08
 
  */
 fun main() {
+
     repeat("Path Kotiln", useNewLine = true)
 
     printAll("A", "B", "C")
