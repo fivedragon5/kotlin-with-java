@@ -37,9 +37,11 @@ fun main() {
     println(money1 === money3)
 
     //Lazy연산
+
     if (fun1() || fun2()) {
         println("본문")
     }
+
 }
 
 fun fun1(): Boolean {
