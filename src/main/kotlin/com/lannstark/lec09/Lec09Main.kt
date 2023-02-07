@@ -43,7 +43,7 @@ fun main() {
 
     val person = KotlinPerson("fad", 22)
     println(person.isAdult)
-    println(person.isAdult())
+//    println(person.isAdult())
 
 
 }
@@ -87,9 +87,9 @@ class KotlinPerson(
         println("두번쨰 부 생성자")
     }
 
-    fun isAdult(): Boolean {
-        return this.age >= 20
-    }
+//    fun isAdult(): Boolean {
+//        return this.age >= 20
+//    }
 
     val isAdult: Boolean
         get() = this.age >= 20

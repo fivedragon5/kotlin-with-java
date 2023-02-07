@@ -23,4 +23,5 @@ package com.lannstark.lec10
         override: 상위 타입을 오버라이드 하고 있다.
  */
 fun main() {
+
 }
